@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div style={{padding:"60px",maxWidth:"800px",margin:"auto"}}>
+    <div id="about" style={{padding:"60px",maxWidth:"800px",margin:"auto"}}>
       
       <h2>About Me</h2>
       <p>
@@ -10,14 +10,23 @@ const About = () => {
         interactive websites using React, JavaScript, HTML, and CSS.
       </p>
 
-      <h3>Skills:</h3>
-      <ul>
-        <li>React.js</li>
-        <li>JavaScript (ES6+)</li>
-        <li>HTML5 & CSS3</li>
-        <li>Responsive Design</li>
-        <li>Git & GitHub</li>
-      </ul>
+      <h2>My Skills</h2>
+
+      <p>React</p>
+      <div style={{background:"#ddd",borderRadius:"10px"}}>
+        <div style={{width:"80%",background:"#ff7a18",padding:"5px",borderRadius:"10px"}}></div>
+      </div>
+
+      <p>JavaScript</p>
+      <div style={{background:"#ddd",borderRadius:"10px"}}>
+        <div style={{width:"75%",background:"#ff7a18",padding:"5px",borderRadius:"10px"}}></div>
+      </div>
+
+      <p>HTML / CSS</p>
+      <div style={{background:"#ddd",borderRadius:"10px"}}>
+        <div style={{width:"90%",background:"#ff7a18",padding:"5px",borderRadius:"10px"}}></div>
+      </div>
+
 
     </div>
   );

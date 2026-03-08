@@ -4,6 +4,7 @@ import Hero from './compound/herosession'
 import About from './compound/aboutsession'
 import Projects from './compound/projects'
 import Contact from './compound/contact'
+import Footer from './compound/footer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   )
 }

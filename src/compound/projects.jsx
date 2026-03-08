@@ -2,10 +2,17 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div style={{padding:"60px",maxWidth:"900px",margin:"auto"}}>
+    <div id = "projects" style={{padding:"60px",maxWidth:"900px",margin:"auto"}}>
       <h2>My Projects</h2>
 
-      <div style={{display:"flex",gap:"20px",flexWrap:"wrap",marginTop:"30px"}}>
+      <div style={{
+  borderRadius:"12px",
+  padding:"20px",
+  background:"rgba(255,255,255,0.1)",
+  backdropFilter:"blur(10px)",
+  flex:"1 1 300px",
+  marginTop:"20px",
+}}>
 
         {/* Project 1 */}
         <div style={{
@@ -24,7 +31,8 @@ const Projects = () => {
           border:"1px solid #ccc",
           borderRadius:"10px",
           padding:"20px",
-          flex:"1 1 300px"
+          flex:"1 1 300px",
+          marginTop:"20px"
         }}>
           <h3>Todo App</h3>
           <p>A simple React todo app with local storage.</p>
@@ -36,12 +44,15 @@ const Projects = () => {
           border:"1px solid #ccc",
           borderRadius:"10px",
           padding:"20px",
-          flex:"1 1 300px"
+          flex:"1 1 300px",
+          marginTop:"20px"  
         }}>
           <h3>Weather App</h3>
           <p>React app fetching weather info from an API.</p>
           <a href="#" target="_blank">View Project</a>
         </div>
+
+        
 
       </div>
     </div>
